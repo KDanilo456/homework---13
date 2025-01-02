@@ -1,0 +1,284 @@
+
+:root{
+    --color: #2196F3;
+    --black: #212121;
+    --gray: #757575;
+    --backround-color: #2F303A;
+    --white: #FFFFFF;
+    --blue:  #2196F3;
+    --light: #F5F4FA;
+    
+}
+.navigation{
+    color: var(--black);
+}
+a[href="/Конткати"]{
+    color: var(--black);
+}
+a[href="tel:+38 096 111 11 11"]{
+    color: var(--gray);
+}
+.nav-site{
+    background-color: var(--backround-color);
+}
+.title{
+    color: var(--white);
+}
+.button{
+ background-color: var(--blue);
+ color: var(--white);
+}
+
+.text{
+    color: var(--gray);
+}
+footer{
+    background-color: var(--backround-color);
+}
+a[href="info@devstudio.com"]{
+   color: var(--gray);
+}
+.address{
+    color: var(--white);
+}
+.address{
+    color: var(--white);
+}
+.gmail[href="info@devstudio.com"]{
+    color: var(--gray);
+}
+
+body{
+    font-family: "Roboto";
+}
+a[href="/WebStudio"]{
+    font-family: "Raleway";
+}
+.logotype{
+    font-family: "Raleway";
+}
+a[href="info@example.com"]{
+    color: var(--gray);
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-inline-start: 0px;
+}
+.navigation-list{
+    padding-bottom: 24px;
+}
+.nav-site{
+    padding-top: 208px;
+}
+.title{
+    padding-bottom: 41px;
+}
+.button{
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.nav-button{
+    padding-bottom: 198px;
+}
+.block{
+    padding-top: 94px;
+    
+}
+.nav-title{
+    padding-bottom: 17px;
+}
+
+.team{
+    padding-top: 185px;
+}
+h2{
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+.nav-buttons{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.project{
+    padding-top: 26px;
+    padding-bottom: 16px;
+}
+#text{
+    padding-bottom: 16px;
+}
+#logotype-nav-footer{
+    padding-top: 62px;
+    padding-bottom: 25px;
+}
+.address{
+    padding-bottom: 15px;
+}
+#gmail-nav-footer{
+    padding-bottom: 15px;
+}
+.tel{
+    padding-bottom: 60px;
+}
+.navigation-list{
+    display: flex;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+.logotype{
+    padding-right: 80px;
+    
+}
+.navigation{
+    padding-right: 50px;   
+}
+#gmail{
+    padding-left: 250px;
+    padding-right: 50px;
+}
+.nav-site{
+    text-align: center;
+}
+.features{
+    display: flex;
+}
+.block{
+    padding-right: 160;
+}
+.work h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.work ul{
+    display: flex;
+}
+.work ul li{
+    padding-right: 30px;
+}
+.team{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.people ul{
+    display: flex;
+}
+.people ul li img{
+    width: 270px;
+    padding-right: 30px;
+}
+.people ul li h2{
+    padding-right: 160px;
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+.people ul li p{
+    padding-right: 150px;
+    font-size: 16px;
+    padding-bottom: 125px;
+
+}
+.nav-buttons{
+   display: flex;
+}
+.navigation-list{
+    padding-top: 30px;
+    text-decoration: none;
+}
+.title{
+       font-weight: 900;
+}
+.nav-title{
+    font-size: 14px;
+}
+.features li p{
+    font-size: 14px;
+    }
+    .features{
+        align-items: baseline;
+    }
+    .navigation-list li a{
+        align-items: center;
+    }
+    .navigation-list li img{
+        align-items: center;
+    }
+    .navigation-list :hover{
+        color: var(--blue);
+    }
+  .nav-buttons li{
+     padding-right: 10px;
+  }
+  .nav-buttons{
+ justify-content: center;
+ }
+ .nav-buttons li button{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px ;
+    background-color: var(--light) ;
+    color: var(--black);
+    border: none;
+    border-radius: 4px;
+ }
+ .nav-all-pictures{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: var(--black);
+    background-color: var(--light);
+    border: none;
+    border-radius: 4px;
+    
+ }
+ .nav-buttons :hover{
+    background-color: var(--blue);
+    color: var(--white) ;
+    border-radius: 4px;
+ }
+
+.nav-footer{
+    padding-left: 215px;
+}
+.people{
+    background-color: var(--light);
+
+}
+.employees{
+    justify-content: center;
+}
+.navigation-list li a{
+    text-decoration: none;
+}
+.nav-footer li a {
+    text-decoration: none;
+}
+.title{
+    text-transform: uppercase;
+}
+.work ul{
+    justify-content: center;
+}
+.features{
+    padding-inline-start: 0px; 
+}
+.work{
+    padding-inline-start: 0px;
+}
+.block{
+    padding-right: 40px;
+    padding-left: 15px;
+}
+.employees{
+    padding-right: 45px ;
+}
+
